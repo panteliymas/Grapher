@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Goldman";
+    src: url("./Goldman/Goldman-Regular.ttf") format("opentype");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #9FFFD1;
+    color: #1AA663;
+}
+
+header{
+    margin: 0;
+    background-color: #1AA663;
+    color: #9FFFD1;
+    height: 70px;
+    line-height: 70px;
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+}
+
+#firstDiv, #secondDiv, #thirdDiv{
+    text-align: center;
+    font-family: "Goldman", serif;
+    font-size: 20px;
+}
+
+input[type=text]{
+    background-color: #51FFAB;
+    font-size: 15px;
+    line-height: 15px;
+    height: 40px;
+    border: 1px solid #1AA663;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #1AA663;
+    width: 70px;
+}
+
+input[type=button]{
+    height: 40px;
+    font-size: 15px;
+    min-width: 50px;
+    background-color: #51FFAB;
+    color: #1AA663;
+    border: 1px solid #1AA663;
+    border-radius: 10px;
+    line-height: 15px;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    border: 1px solid #1AA663;
+    border-radius: 10px;
+    min-width: 70px;
+}
+
+td input[type=text]{
+    border: none;
+}
+
+canvas{
+    padding: 0;
+    margin: auto;
+}
